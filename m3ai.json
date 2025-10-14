@@ -1,0 +1,75 @@
+{
+    "scope": "frontend",
+    "lang": "typescript",
+    "deps": [
+    "@tailwindcss/vite",
+    "axios",
+    "react",
+    "react-dom",
+    "react-router",
+    "tailwindcss",
+    "@eslint/js",
+    "@types/node",
+    "@types/react",
+    "@types/react-dom",
+    "@vitejs/plugin-react",
+    "eslint",
+    "eslint-plugin-react-hooks",
+    "eslint-plugin-react-refresh",
+    "globals",
+    "typescript",
+    "typescript-eslint",
+    "vite"
+    ],
+    "bias": "react",
+    "block_list": [
+        "node_modules/",
+        "dist/",
+        "yarn.lock",
+        "vite.config.ts",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "eslint.config.js",
+        "eslintrc.json",
+        "package-lock.json"
+    ],
+    "notes": [
+    {
+      "path": "public/",
+      "bias": "Arquivos estáticos que são servidos diretamente, sem processamento pelo Vite."
+    },
+    {
+      "path": "src/",
+      "bias": "Diretório principal contendo todo o código-fonte da aplicação React."
+    },
+    {
+      "path": "src/assets/",
+      "bias": "Armazenamento de ativos estáticos como imagens, fontes e SVGs que serão importados nos componentes."
+    },
+    {
+      "path": "src/components/",
+      "bias": "Componentes React reutilizáveis que formam a UI da aplicação."
+    },
+    {
+      "path": "src/hooks/",
+      "bias": "Custom Hooks para encapsular e reutilizar lógica com estado entre componentes."
+    },
+    {
+      "path": "src/pages/",
+      "bias": "Componentes que representam uma página ou uma view completa da aplicação."
+    },
+    {
+      "path": "src/routes/",
+      "bias": "Configuração das rotas da aplicação, definindo qual componente renderizar para cada URL."
+    },
+    {
+      "path": "src/services/",
+      "bias": "Módulos responsáveis pela comunicação com APIs externas (ex: chamadas HTTP com Axios ou Fetch)."
+    },
+    {
+      "path": "src/styles/",
+      "bias": "Arquivos de estilização globais ou temas para a aplicação."
+    }
+  ],
+    "translation_table": []
+}
