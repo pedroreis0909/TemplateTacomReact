@@ -1,5 +1,4 @@
 {
-    "status": "running",
     "scope": "frontend",
     "lang": "typescript",
     "deps": [
@@ -32,7 +31,8 @@
         "tsconfig.node.json",
         "eslint.config.js",
         "eslintrc.json",
-        "package-lock.json"
+        "package-lock.json",
+        "src/styles"
     ],
     "notes": [
         {
