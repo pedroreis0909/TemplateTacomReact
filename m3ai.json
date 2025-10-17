@@ -1,5 +1,5 @@
 {
-    "status": "running",
+    "status": "ready",
     "scope": "frontend",
     "lang": "typescript",
     "deps": [

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Placeholder favicon for legacy reference at public/imagens/favicon.png
+
+  Decisions:
+  - To quickly satisfy the legacy reference and keep the repository textual-friendly,
+    an SVG image is used as the file contents and saved at the requested path.
+    This is a pragmatic placeholder: many static servers will still serve this
+    SVG correctly even if the filename ends with .png. Replace with a true PNG
+    binary if strict MIME/content-type fidelity is required in production.
+  - TODO: (REVIEW) Replace this placeholder with a real PNG (32x32 or 16x16)
+    exported from the design system to preserve pixel fidelity for favicons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">SalvadorCARD favicon placeholder</title>
+  <desc id="desc">Placeholder favicon: teal background with amber circle and SC letters</desc>
+  <rect width="64" height="64" rx="8" ry="8" fill="#004F4F"/>
+  <circle cx="32" cy="24" r="16" fill="#FFCC33"/>
+  <text x="32" y="36" font-family="Verdana, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#004F4F" text-anchor="middle" alignment-baseline="middle">SC</text>
+</svg>
